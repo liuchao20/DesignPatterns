@@ -8,7 +8,7 @@ package com.lc.patterns.factory.abstract_factory;
 public class Client {
     public static void main(String[] args) {
         //创建意大利风味工厂对象
-        ItalyDessertFactory factory = new ItalyDessertFactory();
+        //ItalyDessertFactory factory = new ItalyDessertFactory();
 
         AmericanDessertFactory factory = new AmericanDessertFactory();
 

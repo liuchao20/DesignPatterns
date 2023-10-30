@@ -49,16 +49,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/data/code/design_patterns/src/main/java/com/lc/patterns/factory/abstract_factory",
+    "last_opened_file_path": "D:/data/code/design_patterns/src/main/java/com/lc/patterns/factory/config_factory",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\factory\config_factory" />
       <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\factory\abstract_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.lc.patterns.factory.abstract_factory.Client">
+  <component name="RunManager" selected="Application.com.lc.patterns.factory.config_factory.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lc.patterns.factory.factory_method.Client" />
       <module name="design_patterns" />
@@ -85,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.lc.patterns.factory.config_factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.factory.config_factory.Client" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.patterns.factory.config_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.lc.patterns.factory.config_factory.Client" />
         <item itemvalue="Application.com.lc.patterns.factory.abstract_factory.Client" />
         <item itemvalue="Application.Client" />
       </list>
