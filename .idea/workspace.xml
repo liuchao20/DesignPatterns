@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c193c578-9f7a-45b1-9f3e-f14e80899e99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/deep/Citation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/deep/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/deep/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/demo/Realizetype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/test/Citation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/test/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/prototype/test/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo1/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo1/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo1/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo1/MobileBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo1/OfoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo2/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo2/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo2/MobileBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo2/OfoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/builder/demo3/Phone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Citation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Citation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +64,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/data/code/design_patterns/src/main/java/com/lc/patterns/prototype/deep",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "last_opened_file_path": "D:/data/code/design_patterns/src/main/java/com/lc/patterns/builder/demo2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\builder\demo2" />
       <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\prototype\deep" />
       <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\factory\config_factory" />
       <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\factory\abstract_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.lc.patterns.prototype.deep.Client">
-    <configuration name="com.lc.patterns.factory.abstract_factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.factory.abstract_factory.Client" />
+  <component name="RunManager" selected="Application.com.lc.patterns.builder.demo3.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.builder.demo1.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.patterns.factory.abstract_factory.*" />
+          <option name="PATTERN" value="com.lc.patterns.builder.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lc.patterns.factory.config_factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.factory.config_factory.Client" />
+    <configuration name="com.lc.patterns.builder.demo2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.builder.demo2.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.patterns.factory.config_factory.*" />
+          <option name="PATTERN" value="com.lc.patterns.builder.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lc.patterns.prototype.deep.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.prototype.deep.Client" />
+    <configuration name="com.lc.patterns.builder.demo3.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.builder.demo3.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.patterns.prototype.deep.*" />
+          <option name="PATTERN" value="com.lc.patterns.builder.demo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.lc.patterns.prototype.deep.Client" />
+        <item itemvalue="Application.com.lc.patterns.builder.demo3.Client" />
+        <item itemvalue="Application.com.lc.patterns.builder.demo2.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.lc.patterns.prototype.test.Client" />
         <item itemvalue="Application.com.lc.patterns.prototype.demo.Client" />
-        <item itemvalue="Application.com.lc.patterns.factory.config_factory.Client" />
-        <item itemvalue="Application.com.lc.patterns.factory.abstract_factory.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +168,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
