@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c193c578-9f7a-45b1-9f3e-f14e80899e99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/template/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/template/ConcreteClass_BaoCai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/SalesMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/StrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/StrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/StrategyC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,30 +71,19 @@
       <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\prototype\deep" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lc.patterns.strategy" />
+      <recent name="com.lc.patterns.template" />
       <recent name="com.lc.patterns.adapter.interface_adapter" />
       <recent name="com.lc.patterns.proxy.cglib_proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.lc.patterns.template.Client">
+  <component name="RunManager" selected="Application.com.lc.patterns.strategy.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lc.patterns.combination.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lc.patterns.combination.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.lc.patterns.bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.bridge.Client" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.patterns.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.lc.patterns.strategy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.strategy.Client" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.patterns.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.lc.patterns.template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lc.patterns.template.Client" />
       <module name="design_patterns" />
@@ -139,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.lc.patterns.strategy.Client" />
         <item itemvalue="Application.com.lc.patterns.template.Client" />
         <item itemvalue="Application.com.lc.patterns.flyweight.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.lc.patterns.facade.Client" />
-        <item itemvalue="Application.com.lc.patterns.bridge.Client" />
       </list>
     </recent_temporary>
   </component>
