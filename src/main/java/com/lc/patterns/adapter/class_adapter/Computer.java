@@ -1,7 +1,4 @@
 package com.lc.patterns.adapter.class_adapter;
-
-import com.sun.istack.internal.NotNull;
-
 /**
  * @author: L.C
  * @date: 2023/11/1 15:01

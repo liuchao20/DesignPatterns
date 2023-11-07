@@ -4,27 +4,217 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c193c578-9f7a-45b1-9f3e-f14e80899e99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/SalesMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/StrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/StrategyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/strategy/StrategyC.java" afterDir="false" />
+    <list default="true" id="05822c6e-e940-400a-9d82-8861e3fa1d89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/command/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/command/OrderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/command/SeniorChef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/command/Waiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/patterns/adapter/class_adapter/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/patterns/adapter/class_adapter/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/SDAdapterTF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/SDAdapterTF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/SDCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/SDCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/SDCardImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/SDCardImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/TFCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/TFCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/TFCartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/class_adapter/TFCartImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/Adapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/SDAdapterTF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/SDAdapterTF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/SDCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/SDCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/SDCardImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/SDCardImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/TFCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/TFCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/TFCartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/interface_adapter/TFCartImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/SDAdapterTF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/SDAdapterTF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/SDCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/SDCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/SDCardImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/SDCardImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/TFCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/TFCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/TFCartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/adapter/object_adapter/TFCartImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/AviFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/AviFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/Mac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/Mac.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/OperatingSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/OperatingSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/RmvbFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/RmvbFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/VideoFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/VideoFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/Windows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/bridge/Windows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Bike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/Director.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/MobileBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/MobileBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/OfoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo1/OfoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/Bike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/MobileBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/MobileBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/OfoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo2/OfoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Phone$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Phone$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Phone$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Phone$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/builder/demo3/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/MenuComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/MenuComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/combination/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Bacon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Bacon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Egg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Egg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/FastFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/FastFood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/FiredNoodles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/FiredNoodles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/FriedRice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/FriedRice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Garnish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/decorator/Garnish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/AirCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/AirCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/SmartApplicationFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/SmartApplicationFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/TV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/facade/TV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/AmericanCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/AmericanCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/AmericanDessertFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/AmericanDessertFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/DessertFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/DessertFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/ItalyDessertFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/ItalyDessertFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/LatteCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/LatteCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/MatchMousse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/MatchMousse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Trimisu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/abstract_factory/Trimisu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/AmericanCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/AmericanCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/CoffeeStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/CoffeeStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/LatteCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/before/LatteCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/AmericanCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/AmericanCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/CoffeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/CoffeeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/LatteCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/config_factory/LatteCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/AmericanCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/AmericanCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/AmericanCoffeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/AmericanCoffeeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/CoffeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/CoffeeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/CoffeeStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/CoffeeStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/LatteCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/LatteCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/LatteCoffeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/factory_method/LatteCoffeeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/AmericanCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/AmericanCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/CoffeeStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/CoffeeStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/LatteCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/LatteCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/SimpleCoffeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/factory/simple_factory/SimpleCoffeeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/AbstractBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/AbstractBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/BoxFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/BoxFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/IBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/IBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/LBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/LBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/OBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/flyweight/OBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Citation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Citation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/deep/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/demo/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/demo/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/demo/Realizetype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/demo/Realizetype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/test/Citation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/test/Citation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/test/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/test/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/test/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/prototype/test/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/cglib_proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/cglib_proxy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/cglib_proxy/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/cglib_proxy/ProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/cglib_proxy/TrainStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/cglib_proxy/TrainStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/ProxyFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/ProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/SellTickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/SellTickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/TrainStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/jdk_proxy/TrainStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/ProxyPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/ProxyPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/SellTickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/SellTickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/TrainStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/proxy/static_proxy/TrainStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/RuntimeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/RuntimeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/evil/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/evil/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/evil/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/evil/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry1/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry1/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry2/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/hungry2/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy1/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy1/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy2/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy2/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Singleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Singleton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Singleton$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Singleton$SingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/lazy3/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Singleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Singleton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Singleton$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Singleton$SingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem1/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Singleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Singleton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Singleton$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Singleton$SingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/singleton/problem2/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/SalesMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/SalesMan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/StrategyA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/StrategyA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/StrategyB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/StrategyB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/StrategyC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/strategy/StrategyC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/AbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/AbstractClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/ConcreteClass_BaoCai.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/ConcreteClass_BaoCai.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/ConcreteClass_CaiXin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/patterns/template/ConcreteClass_CaiXin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Agent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Fans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Fans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/Demeter/Star.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/ComputerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/ComputerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/Cpu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/Cpu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/HardDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/HardDisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/InterCpu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/InterCpu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/KingstonMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/KingstonMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/Memory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/Memory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/XiJieHardDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/after/XiJieHardDisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/ComputerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/ComputerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/InterCpu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/InterCpu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/KingstonMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/KingstonMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/XiJieHardDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/DependencyInversion/before/XiJieHardDisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/AntiTheft.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/AntiTheft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/FireProof.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/FireProof.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/HeimaSafetyDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/HeimaSafetyDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/ItcastSafetyDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/ItcastSafetyDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/WaterProof.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/after/WaterProof.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/before/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/before/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/before/HeimaSafetyDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/before/HeimaSafetyDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/before/SafetyDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/InterfaceIsolation/before/SafetyDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/AbstractSkin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/AbstractSkin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/DefaultSkin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/DefaultSkin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/HeimaSkin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/HeimaSkin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/SougouInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/OpenAndClosed/SougouInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/Quadrilateral.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/Quadrilateral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/RectangleDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/RectangleDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/after/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/before/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/before/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/before/RectangleDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/before/RectangleDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/before/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lc/principles/RichterSubstitution/before/Square.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,105 +227,33 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2XTGFTOvqkxFWncIuN9BP4Md9Q2" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2XqsD2pGMqcxjITdjzVTrzidzM9" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/data/code/design_patterns/src/main/java/com/lc/patterns/adapter/interface_adapter&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\adapter\interface_adapter" />
-      <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\adapter\object_adapter" />
-      <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\proxy\jdk_proxy" />
-      <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\builder\demo2" />
-      <recent name="D:\data\code\design_patterns\src\main\java\com\lc\patterns\prototype\deep" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lc.patterns.strategy" />
-      <recent name="com.lc.patterns.template" />
-      <recent name="com.lc.patterns.adapter.interface_adapter" />
-      <recent name="com.lc.patterns.proxy.cglib_proxy" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.com.lc.patterns.strategy.Client">
+}]]></component>
+  <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.combination.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.command.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.patterns.combination.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.lc.patterns.facade.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.facade.Client" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.patterns.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.lc.patterns.flyweight.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.flyweight.Client" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.patterns.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.lc.patterns.strategy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.strategy.Client" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.patterns.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.lc.patterns.template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.patterns.template.Client" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.patterns.template.*" />
+          <option name="PATTERN" value="com.lc.patterns.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,46 +263,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.lc.patterns.strategy.Client" />
-        <item itemvalue="Application.com.lc.patterns.template.Client" />
-        <item itemvalue="Application.com.lc.patterns.flyweight.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.com.lc.patterns.facade.Client" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c193c578-9f7a-45b1-9f3e-f14e80899e99" name="Changes" comment="" />
-      <created>1698645555203</created>
+      <changelist id="05822c6e-e940-400a-9d82-8861e3fa1d89" name="Changes" comment="" />
+      <created>1699367822430</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698645555203</updated>
+      <updated>1699367822430</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
